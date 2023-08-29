@@ -12,3 +12,23 @@ h1{
 .footerstyle{
     background-color: #db6930;
 }
+
+.btncontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    flex: 1;
+    width: 100%;
+}
+
+
+@media (max-width: 375px){
+    .btncontainer{
+        flex-direction: column;
+    }
+
+}

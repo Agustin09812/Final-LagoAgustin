@@ -87,9 +87,6 @@ function reservarTurno() {
 }
 
 function mostrarMensajeReservaExitosa() {
-    const mensajeDiv = document.getElementById("mensajeReservaExitosa")
-    mensajeDiv.textContent = "¡Turno reservado exitosamente!. Revise su casilla de Mail"
-    mensajeDiv.style.display = "block"
     Swal.fire({
         icon: 'success',
         title: '¡Turno reservado exitosamente!',
